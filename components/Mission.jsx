@@ -1,7 +1,9 @@
 export default function Mission() {
     return(
-        <div>
-            <h1>The Mission Section</h1>
+        <section className="section-spacing">
+        <div className="section-container">
+            <h1 className="font-heading">Mission</h1>
         </div>
+    </section>
     )
 }
