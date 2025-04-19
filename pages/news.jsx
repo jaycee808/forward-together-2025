@@ -1,8 +1,8 @@
 export default function News() {
     return (
         <main className="section-spacing">
-            <h1 className="text-4xl font-heading mb-4">News</h1>
-            <p className="font-body">
+            <h1 className="text-4xl font-baloo mb-4">News</h1>
+            <p className="font-inter">
             Roll up, roll up.
             </p>
             <div className="flex justify-center">

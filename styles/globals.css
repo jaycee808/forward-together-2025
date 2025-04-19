@@ -3,15 +3,14 @@
 
 
 @layer base {
-  h1, h2, h3, h4, h5, h6 {
+  .font-baloo {
     font-family: 'Baloo 2', 'Inter', sans-serif;
   }
 
-  p, .nav-link {
+  .font-inter {
     font-family: 'Inter', sans-serif;
   }
 }
-
 @layer utilities {
   .section-spacing {
     @apply px-6 md:px-10 lg:px-24 xl:px-32 py-16;
