@@ -1,14 +1,12 @@
 export const config = {
     colors: [
-      // { color: '#4FC3F7', enabled: true }, // blue
-      // { color: '#18FFFF', enabled: true }, // cyan
-      { color: '#ECEFF1', enabled: true }, // blue-grey
-      // { color: '#FAFAFA', enabled: true }, // grey
-      { color: '#9FA8DA', enabled: true }, // indigo
-      { color: '#3D5AFE', enabled: true }, // blue
-      { color: '#E91E63', enabled: true }, // pink
+      { color: '#C3DBF7', enabled: true }, // light blue
+      { color: '#FBF7F6', enabled: true }, // white
+      // { color: '#9CCFD3', enabled: true }, // light green
+      // { color: '#E6E2DF', enabled: true }, // grey
+      { color: '#F9F6ED', enabled: true }, // light pink
     ],
-    speed: 1.5,
+    speed: 1,
     horizontalPressure: 3,
     verticalPressure: 4,
     waveFrequencyX: 2,

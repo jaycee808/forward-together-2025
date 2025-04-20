@@ -5,7 +5,7 @@ import Link from 'next/link';
 
 export default function Navbar() {
   return (
-    <nav className="text-gray-900">
+    <nav>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-20 py-4 sm:py-6">
         <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-6">
           {/* Logo */}
@@ -22,7 +22,7 @@ export default function Navbar() {
 
           {/* Nav Links */}
           <div className="w-full md:w-auto">
-            <div className="max-w-2xl w-full text-left ml-auto font-inter leading-tight flex flex-row sm:flex-row flex-wrap lg:gap-32 gap-6 font-bold text-base sm:text-lg md:text-xl">
+            <div className="max-w-2xl w-full text-left ml-auto font-inter leading-tight flex flex-row sm:flex-row flex-wrap lg:gap-32 gap-6 font-bold text-base sm:text-lg md:text-xl shimmer-text">
               <NavLink href="/our-story" label="Our Story" />
               <NavLink href="/news" label="News" />
               <NavLink href="/team" label="Team" />
