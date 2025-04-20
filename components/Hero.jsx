@@ -5,7 +5,7 @@ export default function Hero() {
     <section className="relative">
       <div className="max-w-7xl mx-auto flex flex-col justify-end items-end my-10 px-4 sm:px-6 lg:px-20 pb-10">
         <div className="max-w-2xl w-full text-left space-y-6">
-          <h1 className="font-inter text-2xl sm:text-3xl md:text-5xl font-extrabold leading-tight gradient-one">
+          <h1 className="font-inter text-2xl md:text-5xl font-extrabold leading-tight gradient-one">
             Celebrate Diversity, <br /> Empower Communities
           </h1>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6">
@@ -18,7 +18,7 @@ export default function Hero() {
           </div>
           <Link
             href="/our-story"
-            className="font-inter block w-full sm:w-fit button-gradient-border font-bold px-6 py-3 rounded-md text-center shimmer-text text-4xl"
+            className="font-inter block w-full sm:w-fit button-gradient-border font-bold px-6 py-3 rounded-md text-center shimmer-text md:text-2xl lg:text-4xl"
           >
             Our Story →
           </Link>
