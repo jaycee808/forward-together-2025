@@ -12,21 +12,27 @@
 
   /* Gradient */
   .gradient-one {
-    background-image:
-        url('../public/assets/images/texture/paper.jpg'),
-        linear-gradient(to right, #0C13B1, #3C968C, #FE2B9C, #9E19E2);
-    background-size: cover;
-    background-blend-mode: multiply;    
+    background: linear-gradient(to right, #2800FF, #08F1D9, #EC7EE8, #FF0076, #9F50E0);
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
     background-clip: text;
+    -webkit-text-fill-color: transparent;
     color: transparent;
-    }
+    z-index: 2;
+    position: relative;
+  }
+
+  .gradient-outline-back {
+    color: #2E2E2E;
+    -webkit-text-stroke: 10px #2E2E2E;
+    z-index: 1;
+    pointer-events: none;
+  }
 
     .gradient-two {
-      background-image:
+      /* background-image:
           url('../public/assets/images/texture/paper.jpg'),
-          linear-gradient(to right, #FE0E01, #3C968C, #FE2B9C, #9E19E2, #0C13B1);
+          linear-gradient(to right, #FE0E01, #3C968C, #FE2B9C, #9E19E2, #0C13B1); */
+      background: linear-gradient(to right, #2800FF, #08F1D9, #EC7EE8, #FF0076, #9F50E0);
       background-size: cover;
       background-blend-mode: multiply;    
       -webkit-background-clip: text;
@@ -39,8 +45,8 @@
 
       .blob-outer-container {
         position: fixed;
-        height: 100dvh;
-        width: 100dvw;
+        height: 100vh;
+        width: 100vw;
         z-index: 0;
         inset: 0;
         margin: auto;
@@ -52,11 +58,11 @@
         position: absolute;
         inset: 0;
         margin: auto;
-        width: 100dvw;
-        height: 100dvh;
-        min-width: 1000px;
+        width: 100vw;
+        height: 100vh;
+        min-width: 300px;
         overflow: hidden;
-        background: #0C13B1;
+        background: #fff;
         transform: scale(0.6);
       }
 
@@ -66,8 +72,9 @@
         height: 100dvh;
         inset: 0;
         margin: auto;
-        background: conic-gradient(from 0deg, #F9F6ED, #C3DBF7, #FBF7F6);
-        animation: moveBlob 8s linear infinite;
+        background:
+          conic-gradient(from 0deg, #2800FF, #08F1D9, #EC7EE8, #FF0076, #9F50E0);
+        animation: moveBlob 20s linear infinite;
       }
 
       @keyframes moveBlob {

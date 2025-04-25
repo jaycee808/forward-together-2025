@@ -5,9 +5,14 @@ export default function Hero() {
     <section className="relative">
       <div className="max-w-7xl mx-auto flex flex-col justify-end items-end my-10 px-4 sm:px-6 lg:px-20 pb-10">
         <div className="max-w-2xl w-full text-left space-y-6">
-          <h1 className="font-inter text-2xl md:text-5xl font-extrabold leading-tight gradient-one">
-            Celebrate Diversity, <br /> Empower Communities
-          </h1>
+        <h1 className="relative inline-block text-left uppercase">
+          <span className="block gradient-outline-back font-inter text-2xl md:text-5xl font-extrabold absolute top-0 left-0 w-full h-full">
+          Celebrate Diversity, <br /> Empower Communities
+          </span>
+          <span className="block gradient-one font-inter text-2xl md:text-5xl font-extrabold relative">
+          Celebrate Diversity, <br /> Empower Communities
+          </span>
+        </h1>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6">
             <p className="font-inter text-base sm:text-lg md:text-xl text-gray-900">
               <strong>4WARD2GETHER</strong> is a volunteer-led charity in Ayrshire, Scotland, dedicated to building a more inclusive society.
