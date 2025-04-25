@@ -11,7 +11,6 @@
   }
 
   /* Gradient */
-
   .gradient-one {
     background-image:
         url('../public/assets/images/texture/paper.jpg'),
@@ -34,6 +33,50 @@
       -webkit-text-fill-color: transparent;
       background-clip: text;
       color: transparent;
+      }
+
+      /* Background */
+
+      .blob-outer-container {
+        position: fixed;
+        height: 100dvh;
+        width: 100dvw;
+        z-index: 0;
+        inset: 0;
+        margin: auto;
+        filter: blur(100px);
+      }
+
+      .blob-inner-container {
+        border-radius: 99999px;
+        position: absolute;
+        inset: 0;
+        margin: auto;
+        width: 100dvw;
+        height: 100dvh;
+        min-width: 1000px;
+        overflow: hidden;
+        background: #0C13B1;
+        transform: scale(0.6);
+      }
+
+      .blob {
+        position: absolute;
+        width: 100dvw;
+        height: 100dvh;
+        inset: 0;
+        margin: auto;
+        background: conic-gradient(from 0deg, #F9F6ED, #C3DBF7, #FBF7F6);
+        animation: moveBlob 8s linear infinite;
+      }
+
+      @keyframes moveBlob {
+        0% {
+          transform: rotate(0deg) scale(2);
+        }
+        100% {
+          transform: rotate(1turn) scale(2);
+        }
       }
 }
 
