@@ -1,18 +1,21 @@
+'use client'
+
 import Link from 'next/link';
+import Image from 'next/image'
 
 export default function Hero() {
   return (
     <section className="relative">
       <div className="max-w-7xl mx-auto flex flex-col justify-end items-end my-10 px-4 sm:px-6 lg:px-20 pb-10">
         <div className="max-w-2xl w-full text-left space-y-6">
-        <h1 className="relative inline-block text-left uppercase">
-          <span className="block gradient-outline-back font-inter text-2xl md:text-5xl font-extrabold absolute top-0 left-0 w-full h-full">
-          Celebrate Diversity, <br /> Empower Communities
-          </span>
-          <span className="block gradient-one font-inter text-2xl md:text-5xl font-extrabold relative">
-          Celebrate Diversity, <br /> Empower Communities
-          </span>
-        </h1>
+        <Image
+          src="./assets/images/tagline-lowercase.svg"
+          alt="Celebrate Diversity, Empower Communities"
+          width={100}
+          height={100}
+          priority
+          className="h-16 h-40 md:h-40 lg:h-50 w-auto"
+        />
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6">
             <p className="font-inter text-base sm:text-lg md:text-xl text-gray-900">
               <strong>4WARD2GETHER</strong> is a volunteer-led charity in Ayrshire, Scotland, dedicated to building a more inclusive society.

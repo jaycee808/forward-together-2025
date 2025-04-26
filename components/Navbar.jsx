@@ -11,7 +11,7 @@ export default function Navbar() {
           {/* Logo */}
           <Link href="/" className="flex items-start relative z-10">
             <Image
-              src="/assets/images/logo-name.svg"
+              src="/assets/images/logo-3d.svg"
               alt="Forward Together Logo"
               width={500}
               height={250}
