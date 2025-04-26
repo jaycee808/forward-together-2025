@@ -12,7 +12,7 @@
 
   /* Gradient */
   .gradient-one {
-    background: linear-gradient(to right, #2800FF, #08F1D9, #EC7EE8, #FF0076, #9F50E0);
+    background: linear-gradient(to right, #2800FF, #FF0076, #9F50E0);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -32,7 +32,7 @@
       /* background-image:
           url('../public/assets/images/texture/paper.jpg'),
           linear-gradient(to right, #FE0E01, #3C968C, #FE2B9C, #9E19E2, #0C13B1); */
-      background: linear-gradient(to right, #2800FF, #08F1D9, #EC7EE8, #FF0076, #9F50E0);
+      background: linear-gradient(to right, #2800FF, #08F1D9, #FFC976, #ff00774a, #9F50E0);
       background-size: cover;
       background-blend-mode: multiply;    
       -webkit-background-clip: text;
@@ -73,7 +73,7 @@
         inset: 0;
         margin: auto;
         background:
-          conic-gradient(from 0deg, #2800FF, #08F1D9, #EC7EE8, #FF0076, #9F50E0);
+          conic-gradient(from 0deg, #2600ff65, #08f1da81, #ffc8765a, #ff007779, #9f50e065);
         animation: moveBlob 20s linear infinite;
       }
 
@@ -95,16 +95,23 @@
   .section-container {
     @apply max-w-6xl mx-auto;
   }
+
+  .left-column-layout {
+    @apply flex flex-col justify-between items-center w-1/4 py-8 px-4 lg:px-8;
+  }
+  .right-column-layout {
+    @apply flex flex-col w-3/4 py-8 px-6 sm:px-8 lg:px-16;
+  }
 }
 
 @layer components {
   .button-gradient-border {
-    @apply relative z-0 py-2 px-5 text-white font-bold;
+    @apply relative z-0 font-bold py-2 px-5 overflow-hidden transition-all hover:scale-105;
   }
 
   @layer components {
     .button-gradient-border {
-      @apply relative z-0 py-2 px-5 text-white font-bold rounded-md overflow-hidden;
+      @apply relative z-0 py-2 px-5 text-white font-bold overflow-hidden;
       transition: color 0.3s ease;
     }
   
@@ -113,18 +120,14 @@
       position: absolute;
       inset: 0;
       padding: 2px;
-      background-image:
-        url('../public/assets/images/texture/paper.jpg'),
-        linear-gradient(90deg, #0C13B1, #3C968C, #FE2B9C, #9E19E2);
+      background-image: linear-gradient(90deg, #0C13B1, #2E2E2E, #FE2B9C, #9E19E2);
       background-size: 300% 300%;
-      background-blend-mode: multiply;
       background-position: 0% 50%;
       -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
       -webkit-mask-composite: xor;
       mask-composite: exclude;
       pointer-events: none;
       z-index: -1;
-      border-radius: 0.5rem;
       transition: background-position 1s ease;
     }
   
@@ -137,10 +140,10 @@
     @apply text-transparent bg-clip-text relative font-bold;
     background-image: linear-gradient(
       90deg,
-      #0C13B1,
-      #3C968C,
-      #FE2B9C,
-      #9E19E2
+      #2800FF,
+      #FF0076,
+      #08F1D9,
+      #9F50E0
     );
     background-size: 300% 300%;
     background-position: 0% 50%;
