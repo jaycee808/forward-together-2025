@@ -8,7 +8,7 @@ export default function OurStory() {
         <div className="max-w-6xl w-full text-left">
 
             {/* Page Title */}
-            <h1 className="font-inter text-3xl sm:text-4xl md:text-6xl font-extrabold tracking-tight gradient ml-4 pb-0 lg:pb-6">
+            <h1 className="font-inter text-4xl md:text-6xl font-extrabold tracking-tight gradient ml-4 pb-0 lg:pb-6">
             Our Story
             </h1>
 
