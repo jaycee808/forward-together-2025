@@ -12,7 +12,7 @@ export default function Footer() {
             <div className="flex gap-6">
             <SocialIcon href="https://www.instagram.com/4ward2gethersocial" label="Instagram" icon={<Instagram size={24} />} />
             <SocialIcon href="https://www.facebook.com/4ward2gethercelebratingdiversity" label="Facebook" icon={<Facebook size={24} />} />
-            <SocialIcon href="mailto:ward2gether.1@gmail.com" label="Email" icon={<Mail size={24} />} />
+            <SocialIcon href="mailto:4ward2gether.1@gmail.com" label="Email" icon={<Mail size={24} />} />
             </div>
 
             {/* Copyright */}

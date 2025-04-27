@@ -12,13 +12,13 @@ export default function OurStory() {
             Our Story
             </h1>
 
-            {/* Grid Container */}
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 mt-12 w-80 lg:w-350">
+            {/* Flex Container */}
+            <div className="flex flex-wrap gap-12 mt-12">
 
             {/* Section Card Template */}
 
             {/* Section 01 */}
-            <div className="relative bg-gray-50 p-8 rounded-lg shadow-md">
+            <div className="relative bg-gray-50 p-8 rounded-lg shadow-md flex-1 min-w-[300px] md:basis-[calc(50%-24px)] lg:basis-[calc(33.333%-24px)]">
                 <div className="flex justify-end items-start">
                     <span className="text-2xl font-inter font-extrabold text-gray-400">01</span>
                 </div>
@@ -33,7 +33,7 @@ export default function OurStory() {
             </div>
 
             {/* Section 02 */}
-            <div className="relative bg-gray-50 p-8 rounded-lg shadow-md">
+            <div className="relative bg-gray-50 p-8 rounded-lg shadow-md flex-1 min-w-[300px] md:basis-[calc(50%-24px)] lg:basis-[calc(33.333%-24px)]">
                 <div className="flex justify-end items-start">
                     <span className="text-2xl font-inter font-extrabold text-gray-400">02</span>
                 </div>
@@ -48,7 +48,7 @@ export default function OurStory() {
             </div>
 
             {/* Section 03 */}
-            <div className="relative bg-gray-50 p-8 rounded-lg shadow-md">
+            <div className="relative bg-gray-50 p-8 rounded-lg shadow-md flex-1 min-w-[300px] md:basis-[calc(50%-24px)] lg:basis-[calc(33.333%-24px)]">
                 <div className="flex justify-end items-start">
                     <span className="text-2xl font-inter font-extrabold text-gray-400">03</span>
                 </div>
@@ -63,7 +63,7 @@ export default function OurStory() {
             </div>
 
             {/* Section 04 */}
-            <div className="relative bg-gray-50 p-8 rounded-lg shadow-md">
+            <div className="relative bg-gray-50 p-8 rounded-lg shadow-md flex-1 min-w-[300px] md:basis-[calc(50%-24px)] lg:basis-[calc(33.333%-24px)]">
                 <div className="flex justify-end items-start">
                     <span className="text-2xl font-inter font-extrabold text-gray-400">04</span>
                 </div>
@@ -77,7 +77,7 @@ export default function OurStory() {
             </div>
 
             {/* Section 05 */}
-            <div className="relative bg-gray-50 p-8 rounded-lg shadow-md">
+            <div className="relative bg-gray-50 p-8 rounded-lg shadow-md flex-1 min-w-[300px] md:basis-[calc(50%-24px)] lg:basis-[calc(33.333%-24px)]">
                 <div className="flex justify-end items-start">
                     <span className="text-2xl font-inter font-extrabold text-gray-400">05</span>
                 </div>
@@ -93,7 +93,7 @@ export default function OurStory() {
             </div>
 
             {/* Section 06 */}
-            <div className="relative bg-gray-50 p-8 rounded-lg shadow-md">
+            <div className="relative bg-gray-50 p-8 rounded-lg shadow-md flex-1 min-w-[300px] md:basis-[calc(50%-24px)] lg:basis-[calc(33.333%-24px)]">
                 <div className="flex justify-end items-start">
                     <span className="text-2xl font-inter font-extrabold text-gray-400">06</span>
                 </div>
