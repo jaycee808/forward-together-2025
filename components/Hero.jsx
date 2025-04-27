@@ -7,7 +7,7 @@ export default function Hero() {
     <section className="mt-10 m-2 md:ml-10">
       <div className="max-w-2xl w-full text-left space-y-8">
 
-        <h1 className="font-inter text-2xl sm:text-3xl md:text-5xl font-extrabold tracking-tight gradient-one pb-0 lg:pb-6">
+        <h1 className="font-inter text-2xl sm:text-3xl md:text-5xl font-extrabold tracking-tight gradient pb-0 lg:pb-6">
             Celebrate Diversity, <br /> Empower Communities
         </h1>
 
@@ -24,7 +24,7 @@ export default function Hero() {
         href="/our-story"
         className="border-2 border-gray-900 font-inter font-semibold block w-full sm:w-fit text-center md:text-2xl lg:text-2xl py-2 px-4"
         >
-        <span className="gradient-one">Our Story →</span>
+        <span className="gradient">Our Story →</span>
         </Link>
       </div>
     </section>
