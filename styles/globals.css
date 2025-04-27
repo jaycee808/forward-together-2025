@@ -2,43 +2,23 @@
 @import "tailwindcss";
 
 @layer base {
-  .font-baloo {
-    font-family: 'Baloo 2', 'Inter', sans-serif;
-  }
+      .font-baloo {
+        font-family: 'Baloo 2', 'Inter', sans-serif;
+      }
 
-  .font-inter {
-    font-family: 'Inter', sans-serif;
-  }
+      .font-inter {
+        font-family: 'Inter', sans-serif;
+      }
 
-  /* Gradient */
-  .gradient-one {
-    background: linear-gradient(to right, #2800FF, #FF0076, #9F50E0);
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-    color: transparent;
-    z-index: 2;
-    position: relative;
-  }
-
-  .gradient-outline-back {
-    color: #2E2E2E;
-    -webkit-text-stroke: 10px #2E2E2E;
-    z-index: 1;
-    pointer-events: none;
-  }
-
-    .gradient-two {
-      /* background-image:
-          url('../public/assets/images/texture/paper.jpg'),
-          linear-gradient(to right, #FE0E01, #3C968C, #FE2B9C, #9E19E2, #0C13B1); */
-      background: linear-gradient(to right, #2800FF, #08F1D9, #FFC976, #ff00774a, #9F50E0);
-      background-size: cover;
-      background-blend-mode: multiply;    
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      background-clip: text;
-      color: transparent;
+      /* Gradient */
+      .gradient-one {
+        background: linear-gradient(90deg, #FF0076, #0C13B1, #22797A, #40E0D0);
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        color: transparent;
+        z-index: 2;
+        position: relative;
       }
 
       /* Background */
@@ -105,52 +85,17 @@
 }
 
 @layer components {
-  .button-gradient-border {
-    @apply relative z-0 font-bold py-2 px-5 overflow-hidden transition-all hover:scale-105;
-  }
-
-  @layer components {
-    .button-gradient-border {
-      @apply relative z-0 py-2 px-5 text-white font-bold overflow-hidden;
-      transition: color 0.3s ease;
-    }
-  
-    .button-gradient-border::before {
-      content: '';
-      position: absolute;
-      inset: 0;
-      padding: 2px;
-      background-image: linear-gradient(90deg, #0C13B1, #2E2E2E, #FE2B9C, #9E19E2);
+    .shimmer-text {
+      @apply text-transparent bg-clip-text relative font-bold;
+      background-image:
+        linear-gradient(90deg, #FF0076, #0C13B1, #22797A, #9E19E2);
       background-size: 300% 300%;
       background-position: 0% 50%;
-      -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
-      -webkit-mask-composite: xor;
-      mask-composite: exclude;
-      pointer-events: none;
-      z-index: -1;
       transition: background-position 1s ease;
     }
   
-    .button-gradient-border:hover::before {
+    .shimmer-text:hover {
       background-position: 100% 50%;
     }
-  }
 
-  .shimmer-text {
-    @apply text-transparent bg-clip-text relative font-bold;
-    background-image: linear-gradient(
-      90deg,
-      #2800FF,
-      #FF0076,
-      #08F1D9,
-      #9F50E0
-    );
-    background-size: 300% 300%;
-    background-position: 0% 50%;
-    transition: background-position 1s ease;
-  }
-
-  .shimmer-text:hover {
-    background-position: 100% 50%;
-  }
 }
