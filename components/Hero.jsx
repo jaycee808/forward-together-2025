@@ -12,19 +12,19 @@ export default function Hero() {
         </h1>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6">
-          <p className="font-inter text-base sm:text-lg md:text-xl text-gray-900">
+          <p className="font-inter text-base tracking-tight sm:text-lg md:text-xl text-gray-900">
             <strong>4WARD2GETHER</strong> is a volunteer-led charity in Ayrshire, Scotland, dedicated to building a more inclusive society.
           </p>
-          <p className="font-inter text-base sm:text-lg md:text-xl text-gray-900">
+          <p className="font-inter text-base tracking-tight sm:text-lg md:text-xl text-gray-900">
             Through creative sessions and community outreach, we challenge prejudice and spark meaningful conversations.
           </p>
         </div>
 
         <Link
         href="/our-story"
-        className="border-2 border-gray-900 font-inter font-semibold block w-full sm:w-fit text-center md:text-2xl lg:text-2xl py-2 px-4"
+        className="border-2 border-gray-900 block w-full sm:w-fit text-center md:text-2xl lg:text-2xl py-2 px-4"
         >
-        <span className="gradient">Our Story →</span>
+        <span className="gradient tracking-tight font-inter font-extrabold">Our Story →</span>
         </Link>
       </div>
     </section>

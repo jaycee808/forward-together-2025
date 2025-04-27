@@ -26,7 +26,7 @@ export default function Navbar() {
       </Link>
 
       {/* Desktop Links */}
-      <div className="hidden lg:flex gap-24 font-inter font-bold text-base sm:text-lg md:text-xl shimmer-text">
+      <div className="hidden lg:flex gap-24 font-inter font-bold text-base sm:text-lg md:text-xl shimmer-text tracking-tight">
         <NavLink href="/our-story" label="Our Story" />
         <NavLink href="/news" label="News" />
         <NavLink href="/team" label="Team" />
