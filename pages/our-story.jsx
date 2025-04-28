@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 export default function OurStory() {
     return (
-        <section className="mt-10 md:ml-10">
+        <section className="mt-2 md:mt-10 m-0 md:ml-10">
         <div className="max-w-6xl w-full text-left">
 
             {/* Page Title */}
@@ -26,7 +26,7 @@ export default function OurStory() {
                 <h2 className="font-inter tracking-tight text-xl sm:text-2xl md:text-3xl font-extrabold gradient my-4 mb-4">
                 It All Started with a Trip
                 </h2>
-                <p className="font-inter text-base tracking-tight sm:text-lg md:text-xl text-gray-900">
+                <p className="font-baloo text-base tracking-tight sm:text-lg md:text-xl text-gray-900">
                 In 2014, Ian Rennie and Sandy Brown visited Belfast with the Tackling Sectarianism Together team.
                 What they experienced inspired action - not just ideas.
                 </p>
@@ -41,7 +41,7 @@ export default function OurStory() {
                 <h2 className="font-inter tracking-tight text-xl sm:text-2xl md:text-3xl font-extrabold gradient my-4 mb-4">
                 From Vision to Action
                 </h2>
-                <p className="font-inter text-base sm:text-lg md:text-xl text-gray-900 tracking-tight">
+                <p className="font-baloo text-base sm:text-lg md:text-xl text-gray-900 tracking-tight">
                 By 2015, John Ithell and John Houston joined forces to bring this vision to life.
                 Their first project: “Nil by Mouth,” a student-led concert that sparked real conversations across Ayrshire.
                 </p>
@@ -56,7 +56,7 @@ export default function OurStory() {
                 <h2 className="font-inter tracking-tight text-xl sm:text-2xl md:text-3xl font-extrabold gradient mb-4 my-4">
                 Building Momentum
                 </h2>
-                <p className="font-inter text-base sm:text-lg md:text-xl text-gray-900 tracking-tight">
+                <p className="font-baloo text-base sm:text-lg md:text-xl text-gray-900 tracking-tight">
                 Since then, 4WARD2GETHER has grown through events, music, and meaningful partnerships.
                 Each initiative is designed to challenge prejudice, celebrate diversity, and empower communities.
                 </p>
@@ -71,7 +71,7 @@ export default function OurStory() {
                 <h2 className="font-inter tracking-tight text-xl sm:text-2xl md:text-3xl font-extrabold gradient mb-4 my-4">
                 Our Mission
                 </h2>
-                <p className="font-inter text-base sm:text-lg md:text-xl text-gray-900 tracking-tight">
+                <p className="font-baloo text-base sm:text-lg md:text-xl text-gray-900 tracking-tight">
                 We exist to foster inclusion, promote dialogue, and create change - through arts, education, and community engagement.
                 </p>
             </div>
@@ -85,7 +85,7 @@ export default function OurStory() {
                 <h2 className="font-inter tracking-tight text-xl sm:text-2xl md:text-3xl font-extrabold gradient mb-6 my-4">
                 What We Believe
                 </h2>
-                <ul className="list-disc list-inside space-y-4 font-inter text-base sm:text-lg md:text-xl text-gray-900 tracking-tight">
+                <ul className="list-disc list-inside space-y-4 font-baloo text-base sm:text-lg md:text-xl text-gray-900 tracking-tight">
                 <li><span className="font-bold">Diversity matters</span></li>
                 <li><span className="font-bold">Conversation creates change</span></li>
                 <li><span className="font-bold">Community is everything</span></li>
@@ -101,7 +101,7 @@ export default function OurStory() {
                 <h2 className="font-inter tracking-tight text-xl sm:text-2xl md:text-3xl font-extrabold gradient mb-4 my-4">
                 Join Us
                 </h2>
-                <p className="font-inter text-base sm:text-lg md:text-xl text-gray-900 mb-6 tracking-tight">
+                <p className="font-baloo text-base sm:text-lg md:text-xl text-gray-900 mb-6 tracking-tight">
                 Whether you’re a teacher, volunteer, student, or supporter - you’re welcome in this movement.
                 </p>
                 <Link

@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 export default function OurTeam() {
     return (
-        <section className="mt-10 md:ml-10">
+        <section className="mt-2 md:mt-10 m-0 md:ml-10">
             <div className="max-w-6xl w-full text-left">
 
                 {/* Page Title */}
@@ -26,15 +26,15 @@ export default function OurTeam() {
                             />
                         </div>
                         <div className="flex">
-                            <h2 className="font-inter tracking-tight text-xl sm:text-2xl md:text-3xl font-extrabold gradient my-2">
+                            <h2 className="font-inter tracking-tight text-4xl font-extrabold gradient my-2">
                                 Ellie
                             </h2>
                         </div>
                         <hr className="border-gray-400" />
-                            <h3 className="flex justify-start lg:justify-end font-inter tracking-tight text-base md:text-lg font-semibold text-gray-700 my-2 mr-2">
+                            <h3 className="flex justify-start lg:justify-end font-baloo tracking-tight text-lg md:text-xl font-semibold text-pink-600 my-2 mr-2">
                                 Secretary
                             </h3>
-                        <p className="font-inter text-base tracking-tight sm:text-lg md:text-xl text-gray-900 py-2">
+                        <p className="font-baloo tracking-tight text-xl text-gray-900 py-2">
                         Hey, I’m Ellie! I’ve been part of 4WARD2GETHER since 2019 and serve as the group’s Secretary, which basically means I live for spreadsheets!
                         <br /> <br/> 
                         When I'm not buried in coursework at The University of Glasgow, you’ll probably find me on the netball court or out walking my two German Shepherds.
@@ -52,15 +52,15 @@ export default function OurTeam() {
                             />
                         </div>
                         <div className="flex">
-                            <h2 className="font-inter tracking-tight text-xl sm:text-2xl md:text-3xl font-extrabold gradient my-2">
+                            <h2 className="font-inter tracking-tight text-4xl font-extrabold gradient my-2">
                                 Hollie
                             </h2>
                         </div>
                         <hr className="border-gray-400" />
-                            <h3 className="flex justify-start lg:justify-end font-inter tracking-tight text-base md:text-lg font-semibold text-gray-700 my-2 mr-2">
+                            <h3 className="flex justify-start lg:justify-end font-baloo tracking-tight ext-lg md:text-xl font-semibold text-pink-600 my-2 mr-2">
                                 Social Media & Marketing Officer
                             </h3>
-                        <p className="font-inter text-base tracking-tight sm:text-lg md:text-xl text-gray-900 mt-4">
+                        <p className="font-baloo tracking-tight text-xl text-gray-900 py-2">
                             Hi, I’m Hollie! I’ve been with 4WARD2GETHER for 5 years and I’m the Social Media and Marketing Officer - which means I’m always finding an excuse to open Canva.
                             <br/> <br/>
                             I’m currently studying Law at The University of Glasgow and dreaming of a future career in Human Rights Law.

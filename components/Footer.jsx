@@ -16,7 +16,7 @@ export default function Footer() {
             </div>
 
             {/* Copyright */}
-            <div className="text-center sm:text-left">
+            <div className="font-baloo text-center md:text-left text-base">
             <p>
                 © {new Date().getFullYear()} Forward Together<br />
                 Registered Charity No. SC053309
