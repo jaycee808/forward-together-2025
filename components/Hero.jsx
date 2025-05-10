@@ -22,7 +22,7 @@ export default function Hero() {
 
         <Link
         href="/our-story"
-        className="border-2 border-gray-900 block w-full sm:w-fit text-center md:text-2xl lg:text-2xl py-2 px-4"
+        className="border-2 border-gray-900 block w-full sm:w-fit text-center md:text-2xl lg:text-2xl py-2 px-4 rounded-lg"
         >
         <span className="gradient tracking-tight font-inter font-extrabold">Our Story →</span>
         </Link>

@@ -55,14 +55,14 @@ export default function ContactForm() {
                 </div>
             )}
 
-            <div className="max-w-6xl w-full text-left">
+            <div className="w-full text-left">
                 {/* Page Title */}
                 <h1 className="font-inter text-4xl md:text-6xl font-extrabold tracking-tight gradient ml-4 pb-0 lg:pb-6">
                     Contact Us
                 </h1>
 
                 {/* Contact Form */}
-                <div className="bg-gray-50 p-8 rounded-lg shadow-md flex flex-col mt-12">
+                <div className="bg-gray-50 p-4 lg:p-12 rounded-lg shadow-md flex flex-col mt-12">
                     <form onSubmit={handleSubmit} className="flex flex-col space-y-6">
                         <div>
                             <label className="font-inter text-base md:text-lg font-semibold text-gray-700">

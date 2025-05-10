@@ -5,7 +5,7 @@ import Image from 'next/image';
 export default function OurTeam() {
     return (
         <section className="mt-2 md:mt-10 m-0 md:ml-10">
-            <div className="max-w-6xl w-full text-left">
+            <div className="w-full text-left">
 
                 {/* Page Title */}
                 <h1 className="font-inter text-4xl md:text-6xl font-extrabold tracking-tight gradient ml-4 pb-0 lg:pb-6">
