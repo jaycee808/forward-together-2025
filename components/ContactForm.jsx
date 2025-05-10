@@ -50,7 +50,7 @@ export default function ContactForm() {
         <section className="mt-2 md:mt-10 m-0 md:ml-10">
             {/* Sent Notification */}
             {showToast && (
-                <div className="absolute bottom-0 right-0 m-4 bg-pink-500 text-white px-4 py-2 rounded-lg shadow-lg animate-slide-in">
+                <div className="absolute bottom-0 right-0 m-4 bg-pink-500 text-white px-4 py-2 rounded-md shadow-lg animate-slide-in">
                     {status}
                 </div>
             )}
@@ -62,7 +62,7 @@ export default function ContactForm() {
                 </h1>
 
                 {/* Contact Form */}
-                <div className="bg-gray-50 p-4 lg:p-12 rounded-lg shadow-md flex flex-col mt-12">
+                <div className="bg-gray-50 p-4 lg:p-12 rounded-md shadow-md flex flex-col mt-12">
                     <form onSubmit={handleSubmit} className="flex flex-col space-y-6">
                         <div>
                             <label className="font-inter text-base md:text-lg font-semibold text-gray-700">
@@ -108,7 +108,7 @@ export default function ContactForm() {
 
                         <button
                             type="submit"
-                            className="font-inter tracking-tight bg-gradient text-gray-50 font-bold py-3 px-6 rounded-lg hover:border transition"
+                            className="font-inter tracking-tight bg-gradient text-gray-50 font-bold py-3 px-6 rounded-md hover:border transition"
                         >
                             Send Message
                         </button>

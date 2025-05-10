@@ -16,7 +16,7 @@ export default function OurTeam() {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mt-12 w-full">
 
                     {/* Team Member 01 */}
-                    <div className="relative bg-gray-50 p-8 rounded-lg shadow-md flex flex-col">
+                    <div className="relative bg-gray-50 p-8 rounded-md shadow-md flex flex-col">
                         <div className="relative w-full h-64 mb-6">
                             <Image
                                 src="/assets/images/team/ellie.png"
@@ -42,7 +42,7 @@ export default function OurTeam() {
                     </div>
 
                     {/* Team Member 02 */}
-                    <div className="relative bg-gray-50 p-8 rounded-lg shadow-md flex flex-col">
+                    <div className="relative bg-gray-50 p-8 rounded-md shadow-md flex flex-col">
                         <div className="relative w-full h-64 mb-6">
                             <Image
                                 src="/assets/images/team/hollie.png"
