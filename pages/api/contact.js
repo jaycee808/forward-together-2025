@@ -11,8 +11,8 @@ export default async function handler(req, res) {
 
     try {
         await resend.emails.send({
-            from: '4WARD2GETHER <contact@resend.dev>',
-            to: ['jamie.clark@live.co.uk'],
+            from: '4WARD2GETHER - CONTACT <contact@resend.dev>',
+            to: ['4ward2gether.1@gmail.com'],
             subject: `New message from ${name}`,
             reply_to: email,
             html: `
