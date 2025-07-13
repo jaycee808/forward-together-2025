@@ -45,7 +45,7 @@ export default function Navbar() {
       {/* Mobile Menu */}
       {isOpen && (
         <div className="absolute top-12 right-2 mt-2 bg-gray-50 shadow-lg rounded-lg p-6 flex flex-col gap-4 font-inter font-bold text-lg z-40 transition-all duration-300 ease-in-out">
-          <NavLink href="/our-story" label="Our Story" onClick={closeMenu} />
+          {/* <NavLink href="/our-story" label="Our Story" onClick={closeMenu} /> */}
           <NavLink href="/news" label="News" onClick={closeMenu} />
           <NavLink href="/team" label="Team" onClick={closeMenu} />
           <NavLink href="/contact" label="Contact" onClick={closeMenu} />
