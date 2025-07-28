@@ -1,40 +1,30 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+# 4WARD2GETHER
 
-## Getting Started
+**Celebrate Diversity, Empower Communities**
 
-First, run the development server:
+4WARD2GETHER is a website for a Scottish charity that supports youth and community development. With a bold, colourful, and modern design inspired by Swiss graphic principles, the site reflects the organisation’s mission to amplify voices, share stories, and connect communities. Built with Next.js and styled with Tailwind CSS.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🧱 Built With
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+<div>
+  <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Next.js Badge"/>
+  <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS Badge"/>
+</div>
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+[Next.js](https://nextjs.org/) – React Framework for fast static and server-rendered sites.
+[Tailwind CSS](https://tailwindcss.com/) – Utility-first styling for responsive design.
 
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+<p align="center">
+  <img src="./public/assets/images/4W2G-screenshot.png" width="1000" height="auto" title="Screenshot of 4WARD2GETHER">
+</p>
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
+## 🚀 Features
 
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+* **Playful Editorial Layout:** Swiss-inspired layout with bold typography and geometric structure
+* **Inclusive & Vibrant Visuals:** Uses animated gradients, illustration, and a bright, welcoming tone
+* **Mobile Responsive:** Fully responsive and accessible across all screen sizes
+* **API Integration Ready:** Supports Instagram news feed via Elfsight
 
-## Learn More
+## 🔗 Link to Deployed Site
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
+👉 [https://www.4ward2gether.com/](https://www.4ward2gether.com/)
