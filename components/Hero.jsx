@@ -5,8 +5,8 @@ import Image from 'next/image'
 
 export default function LandingPage() {
   return (
-    <main className="mt-2 md:mt-10 px-2 md:px-12 space-y-32">
-      {/* HERO SECTION */}
+    <main className="mt-24 md:mt-32 px-2 md:px-12 space-y-32">
+      {/* Hero Section */}
       <section className="max-w-5xl w-full text-left space-y-8">
         <h1 className="font-inter text-2xl sm:text-3xl md:text-5xl font-extrabold tracking-tight gradient pb-0 lg:pb-6">
           Celebrate Diversity,<br /> Empower Communities
@@ -25,8 +25,15 @@ export default function LandingPage() {
           <span className="gradient tracking-tight font-inter font-extrabold">Our Story ↓</span>
         </a> */}
       </section>
+      
+      {/* Section Divider */}
+      {/* <div className="flex my-32">
+        <div className="h-0.5 w-2 rounded-md bg-[#e9e91265] mx-1"></div>
+        <div className="h-0.5 w-2 rounded-md bg-[#08F1DA81] mx-1"></div>
+        <div className="h-0.5 w-[100%] rounded-md bg-[#FF007779] mx-1"></div>
+      </div> */}
 
-      {/* SECTION 1 — THE JOURNEY */}
+      {/* Section 1 - The Journey */}
       <section id="our-story" className="space-y-12">
         <h2 className="font-inter text-3xl sm:text-4xl md:text-5xl font-extrabold tracking-tight gradient">
           The Journey
@@ -125,7 +132,7 @@ export default function LandingPage() {
         </div>
       </section> */}
 
-      <section className="bg-[#2600ff30] text-black px-8 py-16 rounded-md shadow-xl">
+      <section className="bg-[#2600ff30] text-black px-8 py-24 mb-24 rounded-md shadow-xl ">
         <div className="grid md:grid-cols-2 gap-12 items-center">
         {/* CTA Text */}
         <div className="space-y-4 text-left">
